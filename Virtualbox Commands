@@ -1,0 +1,1 @@
+qemu-img convert -f qcow2 qemu-img convert -f qcow2 vdisk.qcow2 -O vdi vdisk.vdi.qcow2 -O vdi vdisk.vdi
