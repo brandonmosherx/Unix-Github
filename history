@@ -1,0 +1,726 @@
+    1  sudo yum install ibm-notes-config ibm-notes-myattachments ibm-notes-vacationplanner
+    2  xinput
+    3  xinput disable 10
+    4  xinput
+    5  xinput disable 10
+    6  yum install gnome-tweak-tool
+    7  sudo yum install gnome-tweak-tool
+    8  yum update google-chrome-stable
+    9  cd ~ && mkdir .themes
+   10  cd Downloads/
+   11  cp Gnome-OSX-2.6.tar.gz ~/.themes
+   12  cd ~/.themes/
+   13  tar xvzf Gnome-OSX-2.6.tar.gz 
+   14  gnome-tweak-tool 
+   15  kill nautilus
+   16  ps -ef | grep nautilus
+   17  kill 
+   18  kill pid 4621
+   19  ps -ef | grep nautilus
+   20  yum groupinstall 'X Window System' 'KDE'
+   21  sudo \yum groupinstall 'X Window System' 'KDE'
+   22  sudo yum groupinstall 'X Window System' 'KDE'
+   23  virt-manager 
+   24  virt-manager ?
+   25  virt-manager help
+   26  virsh edit
+   27  virsh setvcpus Virtual_Client_Windows_7-KVM 4 --config
+   28  virsh setvcpus Virtual_Client_Windows_7-KVM 2 --config
+   29  virsh setvcpus Virtual_Client_Windows_7-KVM 4 --config--maximum
+   30  virsh setvcpus Virtual_Client_Windows_7-KVM 4 --config --maximum
+   31  git clone git://people.freedesktop.org/~airlied/virglrenderer
+   32  yum install git
+   33  sudo yum install git
+   34  git clone git://people.freedesktop.org/~airlied/virglrenderer
+   35  ./autogen.sh
+   36  cd virglrenderer/
+   37  ls
+   38  gedit Makefile.am &
+   39  ./autogen.sh 
+   40  gedit Makefile.am &
+   41  make
+   42  ./autogen.sh 
+   43  ls
+   44  ./Makefile.am
+   45  sudo ./Makefile.am
+   46  git clone git://people.freedesktop.org/~airlied/virglrenderer
+   47  cd virglrenderer/
+   48  ls
+   49  ./autogen.sh 
+   50  sudo ./autogen.sh 
+   51  sudo make install
+   52  ./autogen.sh 
+   53  sudo yum install dh-autoreconf
+   54  yum whatprovides autoconf
+   55  yum install autoconf
+   56  sudo yum install autoconf
+   57  sudo ./autogen.sh 
+   58  ./autogen.sh 
+   59  sudo yum install automake
+   60  ./autogen.sh 
+   61  make
+   62  ./autogen.sh 
+   63  make
+   64  make ?
+   65  make help
+   66  help make
+   67  man -k make
+   68  make -f Makefile
+   69  ls
+   70  make -f Makefile.am
+   71  sudo yum install libgbm-dev
+   72  cd ..
+   73  ls
+   74  sudo yum install libgbm-dev
+   75  yum whatprovides libgbm-dev
+   76  clear
+   77  git clone git://people.freedesktop.org/~airlied/virglrenderer
+   78  yum install libgbm-devel
+   79  sudo yum install libgbm-devel
+   80  sudo yum install libsdl2-devel
+   81  sudo yum install libSDL2-2_0-0-2.0.3-2.1.3.x86_64
+   82  sudo yum install libgtk-3-devel
+   83  git clone git://people.freedesktop.org/~airlied/virglrenderer
+   84  ./autogen.sh
+   85  cd virglrenderer/
+   86  ./autogen.sh 
+   87  make
+   88  ls
+   89  ./configure 
+   90  make clean
+   91  ./configure
+   92  autoconf
+   93  ./configure
+   94  make
+   95  sudo ./configure
+   96  ./configure
+   97  make Makefile.am
+   98  make
+   99  make make .
+  100  make .
+  101  exit
+  102  git clone git://people.freedesktop.org/~airlied/virglrenderer
+  103  cd virglrenderer/
+  104  ./configure
+  105  ls
+  106  ./autogen.sh
+  107  make
+  108  make Makefile.am
+  109  make Makefile.in
+  110  make
+  111  ls
+  112  make
+  113  make -f Makefile
+  114  make -f makefile.am
+  115  make -f makefile.in
+  116  confi
+  117  configure
+  118  ./configure 
+  119  make
+  120  yum groupinstall "Development tools"
+  121  sudo yum groupinstall "Development tools"
+  122  ./configure
+  123  make
+  124  cd ../..
+  125  cd ..
+  126  ls
+  127  cd ..
+  128  ls
+  129  git clone git://people.freedesktop.org/~airlied/virglrenderer
+  130  cd virglrenderer/
+  131  ls
+  132  ./autogen.sh 
+  133  make
+  134  sudo yum install libdrm
+  135  sudo yum install libdrm-dev
+  136  sudo yum install libdrm-devel
+  137  git clone git://people.freedesktop.org/~airlied/virglrenderer
+  138  cd virglrenderer/
+  139  ./autogen.sh 
+  140  sudo yum install libepoxy
+  141  sudo yum install libepoxy-devel
+  142  ./autogen.sh 
+  143  make
+  144  git clone git://people.freedesktop.org/~airlied/virglrenderer
+  145  ./autogen.sh 
+  146  ls
+  147  make
+  148  cd /var/lib/
+  149  ls
+  150  nautilus libvirt/
+  151  cd libvirt/
+  152  ls
+  153  cd images/
+  154  ls
+  155  qemu-img convert -f qcow2 Virtual_Client_Windows_7-KVM.qcow2 -0 raw vdisk_raw.img
+  156  qemu-img convert -f qcow2 Virtual_Client_Windows_7-KVM.qcow2 -0 vdi windows7vdi
+  157  qemu-img convert -f qcow2 Virtual_Client_Windows_7-KVM.qcow2 -0 vdi windows7vdi.vdi
+  158  qemu-img convert -f qcow2 Virtual_Client_Windows_7-KVM.qcow2 -0 raw vdisk_raw.img
+  159  qemu-img convert -f qcow2 Virtual_Client_Windows_7-KVM.im -0 raw vdisk_raw.img
+  160  ls
+  161  qemu-img convert -f raw -0 qcow2 image.vdi
+  162  qemu-img convert -f qcow2 Virtual_Client_Windows_7-KVM.qcow2 image.vdi
+  163  sudo qemu-img convert -f qcow2 Virtual_Client_Windows_7-KVM.qcow2 image.vdi
+  164  rm image.vdi 
+  165  sudo rm image.vdi 
+  166  qemu-img convert
+  167  qemu-img convert -0 vdi Virtual_Client_Windows_7-KVM.qcow2 vda.vdi
+  168  qemu-img convert Virtual_Client_Windows_7-KVM.qcow2 vda.vdi
+  169  sudo qemu-img convert Virtual_Client_Windows_7-KVM.qcow2 vda.vdi
+  170  rm vda.vdi 
+  171  sudo rm vda.vdi 
+  172  cd /var/lib/
+  173  ls
+  174  cd libvirt/
+  175  ls
+  176  cd images/
+  177  ls
+  178  qemu-img convert -f qcow2 -O vdi vdisk.vdi
+  179  qemu-img convert -f qcow2 Virtual_Client_Windows_7-KVM.qcow2 -O vdi vdisk.vdi
+  180  sudo qemu-img convert -f qcow2 Virtual_Client_Windows_7-KVM.qcow2 -O vdi vdisk.vdi
+  181  iostat
+  182  nautilus
+  183  pwd
+  184  nautilus pwd
+  185  pwd
+  186  yum install kernel-devel*
+  187  sudo yum install kernel-devel*
+  188  nautilus pwd
+  189  pwd
+  190  cd /var/lib/libvirt/
+  191  ls
+  192  cd images/
+  193  chmod 777 vdisk.vdi 
+  194  sudo chmod 777 vdisk.vdi 
+  195  vboxmanage modifyhd vdisk.vdi --resize 60000
+  196  cd /var/lib/libvirt/images/
+  197  ls
+  198  vboxmanage modifyhd vdisk.vdi --resize 60000
+  199  cp /run/media/brandon/3CEA-6C82/SAP /home/brandon/Downloads/
+  200  sudo cp
+  201  sudo cp '/run/media/brandon/3CEA-6C82/SAP' /home/brandon/Downloads/
+  202  sudo cp -r '/run/media/brandon/3CEA-6C82/SAP' /home/brandon/Downloads/SAP
+  203  cd Downloads/
+  204  ls
+  205  rmdir 
+  206  sudo rmdir SAP
+  207  sudo rmdir -r SAP 
+  208  sudo yum install gnome-system-tools
+  209  yum groupinstall "Administration Tools" "System Tools"
+  210  sudo yum groupinstall "Administration Tools" "System Tools"
+  211  dnf config-manager --add-repo=https://negativo17.org/repos/fedora-spotify.repo
+  212  yum-config-manager --add-repo=https://negativo17.org/repos/epel-spotify.repo
+  213  sudo yum-config-manager --add-repo=https://negativo17.org/repos/epel-spotify.repo
+  214  yum -y install spotify
+  215  sudo yum -y install spotify-client
+  216  sudo yum install pulseaudio-qpaeq.x86_64
+  217  pulseaudio 
+  218  pulseaudio --help
+  219  alsa-tools-gui
+  220  sudo yum install alsa-tools-gui
+  221  sudo yum install python3 python-gobject python3-cairo python3-numpy python3-scipy gtk3 gstreamer1 gstreamer1-plugins-good gstreamer1-plugins-bad-free python3-gstreamer1 ladspa-swh-plugins
+  222  sudo yum install pulseaudio-equalizer
+  223  yum find pulseaudio-equalizer
+  224  su -c 'yum list pulseaudio'
+  225  qpaeq 
+  226  pactl load-module module-dbus-protocol
+  227  qpaeq&
+  228  pulseaudio --start
+  229  qpaeq&
+  230  yum find xinput-calibrator
+  231  cd FileOpenInstaller/
+  232  ls
+  233  qpaeq&
+  234  sudo yum install exfat-fuse exfat-utils
+  235  yum find "exfat-fuse"
+  236  cd Downloads/
+  237  sudo rpm -Uvh exfat-utils-1.0.1-1.el6.x86_64.rpm
+  238  sudo rpm -Uvh exfat-utils-1.2.7-1.el6.x86_64.rpm 
+  239  sudo rpm -Uvh fuse-exfat-1.2.7-1.el6.x86_64.rpm 
+  240  mount.exfat /dev/sdb2 /mnt/tmp
+  241  sudo mount.exfat /dev/sdb2 /mnt/tmp
+  242  switchdesk kde
+  243  cd Downloads/
+  244  ls
+  245  rpm -e '/home/brandon/Downloads/jre-8u144-linux-x64.rpm' 
+  246  rpm -e jre-8u144-linux-x64.rpm
+  247  ssh-keygen -t rsa
+  248  cat /home/brandon/.ssh
+  249  cat /home/brandon/.ssh/id_rsa
+  250  gedit /home/brandon/.ssh/id_rsa &
+  251  nautilus /home/brandon/.ssh
+  252  ps -ef | grep sas
+  253  kill -6 3597
+  254  history
+  255  nautilus /home/brandon/.ssh
+  256  cd Downloads/
+  257  ls
+  258  cd Hex-KDESuite/
+  259  ls
+  260  cd Hex-KDESuite/
+  261  ls
+  262  makepkg
+  263  cd ~/.kde4/share/apps/desktoptheme/ 
+  264  cd /.kde
+  265  cd ..
+  266  cd .kde/share/apps/desktoptheme/
+  267  nautilus .kde/share/apps/desktoptheme
+  268  cd ~/.kde4/share/apps/desktoptheme/ 
+  269  nautilus  ~/.kde/share/apps/desktoptheme/ 
+  270  nautilus ~/.local/share/apps/desktoptheme/
+  271  nautilus .local/share/
+  272  nautilus  ~/.kde/share/apps/desktoptheme/ 
+  273  sudo yum install qtcurve
+  274  sudo yum install qtcurve-kde4
+  275  sudo yum install qtcurve-kde
+  276  sudo yum list qtcurve
+  277  cd Downloads/
+  278  ls
+  279  sudo rpm -e '/home/brandon/Downloads/qtcurve-1.8.18-6.g330bfa5.fc26.src.rpm' 
+  280  sudo rpm /home/brandon/Downloads/qtcurve-1.8.18-6.g330bfa5.fc26.src.rpm 
+  281  rpm -ivh qtcurve-1.8.18-6.g330bfa5.fc26.src.rpm 
+  282  sudo rpm -ivh qtcurve-1.8.18-6.g330bfa5.fc26.src.rpm 
+  283  make install
+  284  sudo rpm -ivh qtcurve-1.8.18-6.g330bfa5.fc26.src.rpm 
+  285  cd Downloads/
+  286  ls
+  287  yum install qtcurve-1.8.18-6.g330bfa5.fc26.src.rpm
+  288  sudo yum install qtcurve-1.8.18-6.g330bfa5.fc26.src.rpm
+  289  rpm -ivh qtcurve-1.8.18-6.g330bfa5.fc26.src.rpm
+  290  rpm -ql qtcurve
+  291  rpm -ql qtcurve-1.8.18-6.g330bfa5.fc26.src.rpm
+  292  sudo yum install mock
+  293  useradd -s /sbin/nologin mockbuild
+  294  sudo useradd -s /sbin/nologin mockbuild
+  295  rpm -ql qtcurve-1.8.18-6.g330bfa5.fc26.src.rpm
+  296  rpm -ivh qtcurve-1.8.18-6.g330bfa5.fc26.src.rpm
+  297  sudo groupadd -s /sbin/nologin mockbuild
+  298  sudo groupadd mockbuild
+  299  rpm -ivh qtcurve-1.8.18-6.g330bfa5.fc26.src.rpm
+  300  padsp 
+  301  qpaeq 
+  302  pactl load-module  module-dbus-protocol
+  303  qpaeq
+  304  pactl load-module  module-dbus-protocol
+  305  qpaeq
+  306  qpaeq &
+  307  pactl load-module  module-dbus-protocol
+  308  pactl 
+  309  pactl help
+  310  pactl unload-module module-dbus-protocol 
+  311  pactl load-module  module-dbus-protocol
+  312  sudo qpaeq &
+  313  qpaeq 
+  314  pactl lis
+  315  pactl list
+  316  pactl list | grep headphones
+  317  aplay -l
+  318  qpaeq 
+  319  pactl load-module module-equalizer-sink 
+  320  pactl load-module module-dbus-protocol 
+  321  pactl unload-module module-equalizer-sink 
+  322  pactl unload-module module-dbus-protocol 
+  323  pactl load-module module-dbus-protocol 
+  324  pactl load-module module-equalizer-sink 
+  325  pavucontrol
+  326  pacman
+  327  cd Downloads/
+  328  tar -xzf pavucontrol-3.0.tar.gz
+  329  cd pavucontrol-3.0/
+  330  make
+  331  ls
+  332  ./install-sh 
+  333  ./configure 
+  334  make
+  335  sudo make
+  336  ls
+  337  make makefile.am
+  338  make
+  339  cd Downloads
+  340  cd ..
+  341  cd Down
+  342  rpm -lvi
+  343  ls
+  344  ls | grep pavu
+  345  rpm -lvi pavucontrol-3.0-8.fc27.src.rpm
+  346  lskeys
+  347  rpm lskeys
+  348  qpaeq
+  349  systemctl --system enable pulseaudio.service
+  350  sudo systemctl --system enable pulseaudio.service
+  351  su
+  352  pulseaudio start
+  353  pulseaudio 
+  354  qpaeq
+  355  pulseaudio --start
+  356  qpaeq 
+  357  pulseaudio --kill
+  358  pulseaudio --start
+  359  qpaeq 
+  360  yum reinstall pulseaudio
+  361  sudo yum reinstall pulseaudio
+  362  ps auxw
+  363  ps auxw | grep pulse
+  364  qpaeq
+  365  pactl load-module  module-dbus-protocol
+  366  qpaeq 
+  367  diffin
+  368  diff spotify
+  369  diffin spotify
+  370  aplay -l
+  371  cd Documents/
+  372  convert Bank\ Statement.mng document.pdf
+  373  ps -ef | grep sametime
+  374  kill -6 27402
+  375  kill -6 28171
+  376  ps -ef | grep sametime
+  377  ps -ef | grep pulseaudio
+  378  qpaeq 
+  379  pactl load-module  module-dbus-protocol
+  380  qpaeq
+  381  pulseaudio -k
+  382  pulseaudio
+  383  pulseaudio --help
+  384  sudo qpaeq &
+  385  QPAEQ 
+  386  qpaeq &
+  387  pactl load-module  module-dbus-protocol
+  388  qpaeq &
+  389  load-module module-equalizer-sink
+  390  pactl load-module module-equalizer-sink
+  391  qpaeq &
+  392  nautilus /home/brandon/.ssh/
+  393  sasgui
+  394  sasgui &
+  395  ps -ef | grep sas
+  396  kill -9 5032
+  397  kill -9 5023
+  398  ps -ef | grep sas
+  399  exit
+  400  nautilus /home/brandon/.ssh/
+  401  146.89.1.11:22
+  402  ping 146.89.1.11:22
+  403  ping 146.89.1.11
+  404  nautilus /home/brandon/.ssh/
+  405  cd /home/brandon/.ssh/
+  406  ssh-keygen  -t rsa
+  407  ps -ef | grep sas
+  408  kill -9 3016
+  409  ps -ef | grep sas
+  410  kill -9 19767
+  411  ps -ef | grep sas
+  412  kill -9 19780
+  413  ps -ef | grep sas
+  414  clear
+  415  ssh-keygen  -t rsa
+  416  ssh -p 22 -v -a -D 11023 146.89.17.10 -l sasz4u -o ConnectTimeout=10 -T -o StrictHostKeyChecking=no -o ServerAliveInterval=10 -o ExitOnForwardFailure=yes -o BatchMode=yes 
+  417  ssh --help
+  418  ssh -p 22 -v -a -D 11023 146.89.17.10 -l sasz4u -o ConnectTimeout=10 -T -o StrictHostKeyChecking=no -o ServerAliveInterval=10 -o ExitOnForwardFailure=yes -o BatchMode=yes 
+  419  nautilus 
+  420  ls
+  421  l s-a
+  422  ls -a
+  423  cd .ssh
+  424  ls
+  425  nautilus ./.ssh
+  426  nautilus
+  427  nautilus .ssh
+  428  nautilus /
+  429  nautilus /home/brandon/.ssh/
+  430  ssh -p 22 -v -a -D 11023 146.89.17.10 -l sasz4u -o ConnectTimeout=10 -T -o StrictHostKeyChecking=no -o ServerAliveInterval=10 -o ExitOnForwardFailure=yes -o BatchMode=yes 
+  431  ssh-keygen  --help
+  432  ssh-keygen -b 2048 -t rsa
+  433  ssh -p 22 -v -a -D 11023 146.89.17.10 -l sasz4u -o ConnectTimeout=10 -T -o StrictHostKeyChecking=no -o ServerAliveInterval=10 -o ExitOnForwardFailure=yes -o BatchMode=yes 
+  434  ps -ef | grep sas
+  435  kill -9 21141
+  436  kill -9 21147
+  437  kill -9 24633
+  438  kill -9 24639
+  439  ps -ef | grep sas
+  440  ssh --help
+  441  clear
+  442  ssh --help
+  443  ssh -p 22 -v -a -D 11023 146.89.17.10 -l brandon@oc5426015715.ibm.com -o ConnectTimeout=10 -T -o StrictHostKeyChecking=no -o ServerAliveInterval=10 -o ExitOnForwardFailure=yes -o BatchMode=yes 
+  444  ps -ef | grep sas
+  445  kill -9 3757
+  446  ssh saswhr@146.89.1.10:22
+  447  ssh saswhr@146.89.1.10
+  448  nautilus /home/brandon/.ssh/
+  449  cd /home/brandon/.ssh/
+  450  ls
+  451  eval ssh-agent
+  452  ssh-add id_rrsa
+  453  ssh-add id_rsa
+  454  chmod 777 id_rsa
+  455  ssh-add id_rsa
+  456  chmod 111 id_rsa
+  457  ssh-add id_rsa
+  458  sudo ssh-add id_rsa
+  459  sudo chmod 333 id_rsa
+  460  ssh-add id_rsa
+  461  sudo ssh-add id_rsa
+  462  sudo chmod 447 id_rsa
+  463  sudo ssh-add id_rsa
+  464  ssh saswhr@146.89.1.10
+  465  nautilus /home/brandon/ssh
+  466  nautilus /home/brandon/.ssh
+  467  nautilus /home/brandon/.sasgui/
+  468  nautilus /home/brandon/.ssh/
+  469  ssh-keygen -t rsa
+  470  ps -ef | grep sasgui
+  471  kill -9 5559
+  472  kill -9 5543
+  473  ps -ef | grep sasgui
+  474  sudo chmod -c g-w /home/brandon/
+  475  chmod g-w $HOME/.ssh
+  476  find sasgui
+  477  find
+  478  find sas
+  479  find gui
+  480  find "gui"
+  481  find "gui"
+  482  locate sas
+  483  nautilus /var/lib/
+  484  rmdir /var/lib/sasgui
+  485  sudo rmdir /var/lib/sasgui/
+  486  sudo rm -rf /var/lib/sasgui/
+  487  ps -ef | grep sasgui
+  488  kill -9 5444
+  489  kill -9 5448
+  490  ps -ef | grep sasgui
+  491  exit
+  492  cd Downloads/
+  493  sudo rpm -ivh sasgui-1.5.2-1.x86_64.rpm 
+  494  sudo rpm -rm sasgui-1.5.9-1.el7.x86_64
+  495  sudo rpm 
+  496  sudo rpm | grep remove
+  497  sudo rpm | grep "remove"
+  498  sudo rpm -evv sasgui-1.5.9-1.el7.x86_64
+  499  sudo rpm -ivh sasgui-1.5.2-1.x86_64.rpm 
+  500  history
+  501  ssh-keygen -t rsa
+  502  ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub 
+  503  cd Downloads/
+  504  ls
+  505  cd other/
+  506  ls
+  507  ls | grep sas
+  508  rpm -evv sasgui-1.5.2.1.x86_64.rpm
+  509  rpm -evv sasgui
+  510  sudo rpm -evv sasgui
+  511  ls
+  512  cd ..
+  513  ls
+  514  sudo rpm -ivh sasgui-1.5.8-1.el7.x86_64.rpm 
+  515  ps -ef | grep sasgui
+  516  kill -9 23902
+  517  sudo rpm -evv sasgui
+  518  cd //
+  519  cd ..
+  520  cd ../..
+  521  ls
+  522  cd home
+  523  ls
+  524  cd brandon/
+  525  sudo rm -r .sasgui/
+  526  locate sasgui
+  527  locate sasgui | xargs -ixxx rm -f 'xxx'
+  528  sudo locate sasgui | xargs -ixxx rm -rf 'xxx'
+  529  sudo locate sasgui | sudo xargs -ixxx rm -rf 'xxx'
+  530  locate sasgui
+  531  nautilus usr/bin
+  532  nautilus usr/bin/
+  533  locate sas
+  534  locate sasgui
+  535  sudo locate sasgui | sudo xargs -ixxx rm -rf 'xxx'
+  536  sudo locate sasgui
+  537  sudo rm -rf /etc/NetworkManager/dispatcher.d/99-sasgui
+  538  sudo locate sasgui
+  539  sudo rm -rf /etc/NetworkManager/dispatcher.d/99-sasgui
+  540  sudo locate sasgui
+  541  nautilus /etc/NetworkManager/dispatcher.d/
+  542  sudo locate sasgui
+  543  clear
+  544  sudo locate sasgui
+  545  sudo rm -rf /usr/bin/redsocks-sasgui 
+  546  sudo rm -rf /usr/bin/sasgui
+  547  sudo rm -rf /usr/bin/sasgui-debug-dump
+  548  sudo rm -rf /usr/bin/sasgui.jar
+  549  sudo rm -rf /usr/lib/sasgui
+  550  sudo rm -rf /usr/lib/udev/rules.d/85-sasgui.rules
+  551  locate sasgui
+  552  cd Downloads/
+  553  lks
+  554  ls
+  555  sudo rpm -ivh sasgui-1.5.8-1.el7.x86_64.rpm 
+  556  cd ..
+  557  ssh-keygen -t rsa
+  558  rm -rf .ssh/
+  559  ssh-keygen -t rsa
+  560  vi .ssh/id_rsa.pub
+  561  cat .ssh/id_rsa.pub
+  562  ssh-keygen -l -f .ssh/id_rsa.pub 
+  563  ps -ef | grep sas
+  564  kill -9 27491
+  565  kill -9 27504
+  566  ssh-keygen -t rsa 
+  567  ssh-keygen -b 2048 -t rsa 
+  568  ps -ef | grep sas
+  569  eval ssh-agent 
+  570  ssh-keygen -y
+  571  eval ssh-agent 
+  572  ssh-keygen -y
+  573  ps -ef | grep sametime
+  574  kill -9 4830
+  575  PS -EF | GREP SAS
+  576  ps -ef | grep sas
+  577  kill -9 4227
+  578  kill -9 4233
+  579  kill -9 5803
+  580  ps -ef | grep sas
+  581  kill -9 5803
+  582  kill -9 5866
+  583  ps -ef | grep sas
+  584  ssh 172.18.35.6
+  585  history
+  586  ssh-keygen -y
+  587  ssh --help
+  588  ssh 172.18.35.6 -l saplls
+  589  ssh-keygen -t rsa
+  590  clear
+  591  ssh-keygen -t rsa
+  592  ps -ef | grep sasgui
+  593  kill -9 2906
+  594  kill -9 21502
+  595  ping http://chwt11z3f100f.z3fscep.ssm.sdc.gts.ibm.com
+  596  ping chwt11z3f100f.z3fscep.ssm.sdc.gts.ibm.com
+  597  ping chw11z3f100f
+  598  ps -ef | grep sas
+  599  kill -9 4312
+  600  kill -9 4318
+  601  kill -9 4427
+  602  cd /home/brandon/Documents/SametimeTranscripts
+  603  ls
+  604  cd \[multi-way\]/
+  605  ls
+  606  nautilus .
+  607  sudo yum install kazam
+  608  sudo yum install gtk-recordmydesktop 
+  609  kill -9 12871
+  610  gedit [atrpms]
+  611  name=Fedora Core $releasever - $basearch - ATrpms
+  612  baseurl=http://dl.atrpms.net/el$releasever-$basearch/atrpms/stable
+  613  gpgkey=http://ATrpms.net/RPM-GPG-KEY.atrpms
+  614  gpgcheck=1
+  615  gedit /etc/yum.repos.d
+  616  cd /etc/yum.repos.d/
+  617  ls
+  618  sudo gedit atrpm.repo &
+  619  sudo gedit atrpm.repo 
+  620  yum install epel-release
+  621  sudo yum install epel-release
+  622  find openssl.cnf
+  623  cd /usr/lib/openssl/
+  624  ls
+  625  cd /usr/lib/openssl
+  626  cd /usr/lib/
+  627  ls
+  628  cd openssl
+  629  ls
+  630  cd engines/
+  631  ls
+  632  openssl.cnf
+  633  cd /usr/lib/ssl/
+  634  cd /usr/lib
+  635  ls
+  636  cd ssl
+  637  openssl
+  638  cd /usr/local/
+  639  ls
+  640  cd ssl
+  641  locate ssl
+  642  locate openssl
+  643  locate openssl.conf
+  644  locate openssl.cnf
+  645  cd /etc/pki/tls/
+  646  ls
+  647  gedit openssl.cnf &
+  648  sudo gedit openssl.cnf
+  649  cler
+  650  clear
+  651  openssl genrsa
+  652  clear
+  653  openssl genrsa -out testkey.key 2048
+  654  sudo openssl genrsa -out testkey.key 2048
+  655  ls
+  656  rm testkey.key 
+  657  cd ..
+  658  ls
+  659  cd /home/
+  660  ls
+  661  cd brandon/
+  662  cd Documents/
+  663  ls
+  664  mkdir keyz2
+  665  cd keyz2/
+  666  ls
+  667  openssl genrsa -out testkey.key 2048
+  668  openssl genrsa -out srvr1-example-com-2048.key 4096
+  669  openssl req -new -out srvr1-example-com-2048.csr -key srvr1-example-com-2048.key -config openssl-san.cfg
+  670  openssl req -new -out srvr1-example-com-2048.csr -key srvr1-example-com-2048.key
+  671  ls
+  672  openssl req -text -noout -in srvr1-example-com-2048.csr 
+  673  cd /etc/pki/tls/
+  674  ls
+  675  gedit openssl.cnf 
+  676  gedit 
+  677  gedit openssl.cnf 
+  678  gedit openssl.cnf &
+  679  gedit
+  680  ls
+  681  cd /home/brandon/Documents/keyz2/
+  682  ls
+  683  openssl req -new -out srvr1-example-com-2048.csr -key srvr1-example-com-2048.key -config sslconf1
+  684  openssl req -text -noout -in srvr1-example-com-2048.csr
+  685  openssl genrsa -out srvr1-example-com-2048.key 4096
+  686  openssl req -new -out srvr1-example-com-2048.csr -key srvr1-example-com-2048.key -config openssl-san.cfg
+  687  openssl genrsa -out srvr1-example-com-2048.key 4096
+  688  openssl req -new -out srvr1-example-com-2048.csr -key srvr1-example-com-2048.key -config openssl-san.cfg
+  689  openssl req -text -noout -in srvr1-example-com-2048.csr
+  690  openssl req -new -out srvr1-example-com-2048.csr -key srvr1-example-com-2048.key -config openssl-san.cfg
+  691  openssl req -text -noout -in srvr1-example-com-2048.csr
+  692  gedit openssl.cnf &
+  693  cd /home/brandon/Documents/keyz2/
+  694  ls
+  695  gedit openssl-san.cfg 
+  696  history
+  697  echo "# UNIX" >> README.md
+  698  git init
+  699  git add README.md
+  700  git commit -m "first commit"
+  701  git remote add origin https://github.com/brandonmosherx/UNIX.git
+  702  clear
+  703  echo "# UNIX" >> README.md
+  704  git init
+  705  git add README.md
+  706  git commit -m "first commit"
+  707  git remote add origin git@github.com:brandonmosherx/UNIX.git
+  708  git commit --amend --reset-autor
+  709  git commit --amend --reset-author
+  710  cd Documents/
+  711  cd Unix\ GITHUB/
+  712  ls
+  713  git init
+  714  git status
+  715  git add
+  716  git add .
+  717  git commit -m "This is the first commit."
+  718  git remote add origin git@github.com:brandonmosherx/Unix-Github.git
+  719  git push -u origin master
+  720  git remote remove
+  721  git remote remove origin git@github.com:brandonmosherx/Unix-Github.git
+  722  git remote remove origin
+  723  git remote add origin https://github.com/brandonmosherx/Unix-Github.git
+  724  git push -u origin master
+  725  history
+  726  history > history

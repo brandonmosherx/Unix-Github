@@ -1,0 +1,9 @@
+-- Create a 4096-bit Key.
+
+openssl genrsa -out testkey.key 4096
+
+
+-- Create a certificate request based off of a custom OpenSSL Configuration.
+openssl req -new -out srvr1-example-com-2048.csr -key srvr1-example-com-2048.key -config openssl-san.cfg
+
+
