@@ -1,0 +1,4 @@
+Su – da1adm
+cd /usr/sap/DA1/SMDA97/script
+./smdsetup.sh sldconf hostname:"vs-smx-4hana.Z3N.rtp.ssm.sdc.gts.ibm.com" port:"54000" user:"slddsuser" pwd:"Security#1"
+./smdsetup.sh managingconf hostname:"vs-smx-4hana.Z3N.rtp.ssm.sdc.gts.ibm.com" port:"8142" user:"SMD_AGT" pwd:"Security#1"
